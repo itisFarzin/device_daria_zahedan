@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-V1-ndk.vendor
+
 # Keymaster
 PRODUCT_PACKAGES += \
     libkeymaster4_1support.vendor \
