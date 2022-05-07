@@ -1758,9 +1758,6 @@ vendor/etc/mtk_omx_core.cfg
 vendor/etc/mtk_platform_codecs_config.xml
 vendor/etc/nhw
 vendor/etc/partition_permission.sh
-vendor/etc/power_app_cfg.xml
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
 vendor/etc/public.libraries.txt
 vendor/etc/slp_conf
 vendor/etc/smsdbvisitor.xml
