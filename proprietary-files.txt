@@ -1,5 +1,9 @@
 # Unpinned blobs from zahedan-user 14 UQ1A.240205.004 V5.27.2.0.BOND release-keys
 
+# AEE
+vendor/lib/libaedv.so
+vendor/lib64/libaedv.so
+
 # Audio
 vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/lib/hw/audio.primary.mt6877.so
