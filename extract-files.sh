@@ -55,6 +55,10 @@ fi
 
 function blob_fixup {
 	case "$1" in
+        vendor/bin/hw/android.hardware.gnss-service.mediatek |\
+        vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so)
+            "$PATCHELF" --replace-needed "android.hardware.gnss-V1-ndk_platform.so" "android.hardware.gnss-V1-ndk.so" "$2"
+            ;;
         vendor/lib64/libmorpho_video_stabilizer.so)
             [ "$2" = "" ] && return 0
             grep -q "libutils.so" "${2}" || "${PATCHELF_0_17_2}" --add-needed "libutils.so" "${2}"
