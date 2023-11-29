@@ -119,6 +119,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor \
     android.hardware.hardware_keystore.km41.xml
 
+# Media
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
