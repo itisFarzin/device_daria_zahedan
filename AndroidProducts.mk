@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_zahedan.mk
+    $(LOCAL_DIR)/afterlife_zahedan.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_zahedan-user \
-    lineage_zahedan-userdebug \
-    lineage_zahedan-eng
+    afterlife_zahedan-user \
+    afterlife_zahedan-userdebug \
+    afterlife_zahedan-eng

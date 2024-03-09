@@ -11,16 +11,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/daria/zahedan/device.mk)
 
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common afterlife stuff.
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_zahedan
+PRODUCT_NAME := afterlife_zahedan
 PRODUCT_DEVICE := zahedan
 PRODUCT_MANUFACTURER := Daria
 PRODUCT_BRAND := Daria
 PRODUCT_MODEL := DM-B50104
 
 PRODUCT_SYSTEM_NAME := zahedan
+AFTERLIFE_MAINTAINER := itisFarzin
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
