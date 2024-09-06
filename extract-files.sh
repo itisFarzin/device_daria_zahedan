@@ -55,6 +55,16 @@ fi
 
 function blob_fixup {
 	case "$1" in
+        vendor/lib*/libteei_daemon_vfs.so|\
+        vendor/lib64/libSQLiteModule_VER_ALL.so|\
+        vendor/lib64/lib3a.flash.so|\
+        vendor/lib64/lib3a.ae.stat.so|\
+        vendor/lib64/lib3a.sensors.color.so|\
+        vendor/lib64/lib3a.sensors.flicker.so|\
+        vendor/lib64/libaaa_ltm.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF_0_17_2}" --add-needed "liblog.so" "${2}"
+            ;;
         vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service)
             "${PATCHELF}" --remove-needed "android.hardware.power-service-mediatek.so" "${2}"
             ;;
