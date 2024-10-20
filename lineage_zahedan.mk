@@ -23,6 +23,5 @@ PRODUCT_MANUFACTURER := daria
 PRODUCT_GMS_CLIENTID_BASE := android-jimi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="zahedan-user 14 UQ1A.240205.004 V5.27.2.0.BOND release-keys"
-
-BUILD_FINGERPRINT := Daria/zahedan/zahedan:14/UQ1A.240205.004/V5.27.2.0.BOND:user/release-keys
+    BuildDesc="zahedan-user 14 UQ1A.240205.004 V5.27.2.0.BOND release-keys" \
+    BuildFingerprint=Daria/zahedan/zahedan:14/UQ1A.240205.004/V5.27.2.0.BOND:user/release-keys
