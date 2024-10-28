@@ -55,6 +55,10 @@ fi
 
 function blob_fixup {
 	case "$1" in
+        vendor/lib64/libmorpho_video_stabilizer.so)
+            [ "$2" = "" ] && return 0
+            grep -q "libutils.so" "${2}" || "${PATCHELF_0_17_2}" --add-needed "libutils.so" "${2}"
+            ;;
         vendor/lib*/libteei_daemon_vfs.so|\
         vendor/lib64/libSQLiteModule_VER_ALL.so|\
         vendor/lib64/lib3a.flash.so|\
