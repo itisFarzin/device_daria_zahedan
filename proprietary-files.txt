@@ -984,16 +984,10 @@ vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/lib/hw/power.default.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib/libpower_timer.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so
-vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib64/libpower_timer.so
 vendor/lib64/lmodroid-power-ext-V1-ndk_platform.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
 
 # Radio
 vendor/bin/hw/mtkfusionrild
@@ -1715,7 +1709,6 @@ vendor/etc/vintf/manifest/gnss@2.1-service-mtk.xml
 vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
 vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
-vendor/etc/vintf/manifest/power-mtk.xml
 vendor/etc/vintf/manifest/vendor.lineage.fastcharge@1.0-service.zahedan.xml
 vendor/etc/vintf/manifest/vendor.lineage.health-service.default.xml
 vendor/etc/vintf/manifest/vendor.lineage.livedisplay@2.1-service.zahedan.xml
