@@ -1091,9 +1091,6 @@ vendor/app/HorCali/HorCali.apk
 vendor/app/SensorHub/SensorHub.apk
 vendor/bin/hw/camerahalserver
 vendor/bin/hw/tetheroffloadservice
-vendor/bin/hw/vendor.lineage.fastcharge@1.0-service.zahedan
-vendor/bin/hw/vendor.lineage.health-service.default
-vendor/bin/hw/vendor.lineage.livedisplay@2.1-service.zahedan
 vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service
@@ -1193,9 +1190,6 @@ vendor/etc/init/networksetting.rc
 vendor/etc/init/nvram_daemon.rc
 vendor/etc/init/pri_misc.rc
 vendor/etc/init/tetheroffloadservice.rc
-vendor/etc/init/vendor.lineage.fastcharge@1.0-service.zahedan.rc
-vendor/etc/init/vendor.lineage.health-service.default.rc
-vendor/etc/init/vendor.lineage.livedisplay@2.1-service.zahedan.rc
 vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc
@@ -1687,9 +1681,6 @@ vendor/etc/security/cacerts_supl/c542733d.0
 vendor/etc/security/cacerts_supl/f336e3d1.0
 vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
 vendor/etc/vintf/manifest/manifest_hwcomposer.xml
-vendor/etc/vintf/manifest/vendor.lineage.fastcharge@1.0-service.zahedan.xml
-vendor/etc/vintf/manifest/vendor.lineage.health-service.default.xml
-vendor/etc/vintf/manifest/vendor.lineage.livedisplay@2.1-service.zahedan.xml
 vendor/etc/AbnormalDisplayLog_dynamic.xml
 vendor/etc/AudioLog_dynamic.xml
 vendor/etc/BSTAISCENE
@@ -2036,10 +2027,6 @@ vendor/lib64/meta_wifi_data.so
 vendor/lib64/nwk_opt_imp.so
 vendor/lib64/ov16a1q_mipi_raw_tuning.so
 vendor/lib64/ov50a40_mipi_raw_tuning.so
-vendor/lib64/vendor.lineage.fastcharge@1.0.so
-vendor/lib64/vendor.lineage.health-V1-ndk_platform.so
-vendor/lib64/vendor.lineage.livedisplay@2.0.so
-vendor/lib64/vendor.lineage.livedisplay@2.1.so
 vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so
