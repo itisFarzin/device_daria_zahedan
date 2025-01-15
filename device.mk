@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl.recovery \
     android.hardware.boot@1.2-service
 
+# CAS
+PRODUCT_PACKAGES += \
+    android.hardware.cas@1.2-service
+
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
