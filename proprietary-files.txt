@@ -1099,7 +1099,6 @@ vendor/app/HorCali/HorCali.apk
 vendor/app/SensorHub/SensorHub.apk
 vendor/bin/hw/camerahalserver
 vendor/bin/hw/tetheroffloadservice
-vendor/bin/hw/vendor.bst.hardware.biometrics.face.jdm-service
 vendor/bin/hw/vendor.lineage.fastcharge@1.0-service.zahedan
 vendor/bin/hw/vendor.lineage.health-service.default
 vendor/bin/hw/vendor.lineage.livedisplay@2.1-service.zahedan
@@ -1179,7 +1178,6 @@ vendor/etc/init/camerahalserver.rc
 vendor/etc/init/chipinfo_init.rc
 vendor/etc/init/dmc_core.rc
 vendor/etc/init/eara-io-service.rc
-vendor/etc/init/face-jdm.rc
 vendor/etc/init/fpsgo.rc
 vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
@@ -1708,7 +1706,6 @@ vendor/etc/security/cacerts_supl/3ad48a91.0
 vendor/etc/security/cacerts_supl/7651b327.0
 vendor/etc/security/cacerts_supl/c542733d.0
 vendor/etc/security/cacerts_supl/f336e3d1.0
-vendor/etc/vintf/manifest/face-jdm.xml
 vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
 vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
