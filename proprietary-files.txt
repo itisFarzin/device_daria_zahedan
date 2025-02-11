@@ -1,8 +1,5 @@
 # Unpinned blobs from zahedan-user 14 UQ1A.240205.004 V5.27.2.0.BOND release-keys
 
-# Alarm
-system_ext/priv-app/PowerOffAlarm/PowerOffAlarm.apk
-
 # Audio
 vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/etc/init/android.hardware.audio.service.mediatek.rc
@@ -704,15 +701,6 @@ vendor/etc/init/android.hardware.cas@1.2-service.rc
 vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml
 
 # Display
-system_ext/lib/vendor.mediatek.hardware.pq@2.0.so
-system_ext/lib/vendor.mediatek.hardware.pq@2.1.so
-system_ext/lib/vendor.mediatek.hardware.pq@2.2.so
-system_ext/lib/vendor.mediatek.hardware.pq@2.3.so
-system_ext/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.0.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.1.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.2.so
-system_ext/lib64/vendor.mediatek.hardware.pq@2.3.so
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/android.hardware.graphics.composer@2.3-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service
@@ -999,9 +987,6 @@ vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci.conf
 
 # Power
-system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
-system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
@@ -1020,7 +1005,6 @@ vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
 
 # Radio
-system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 vendor/bin/hw/mtkfusionrild
 vendor/etc/init/mtkrild.rc
 vendor/lib/libmtkcutils.so
@@ -1043,10 +1027,6 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 
 # Radio (IMS)
-system_ext/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so
-system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
