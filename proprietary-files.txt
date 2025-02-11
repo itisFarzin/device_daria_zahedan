@@ -224,10 +224,6 @@ vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
 
 # Camera
 vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
-vendor/lib/mt6877/libaiselector.so
-vendor/lib/mt6877/libdpframework.so
-vendor/lib/mt6877/libmtk_drvb.so
-vendor/lib/mt6877/libpq_prot.so
 vendor/lib/libCamera_gc02m1macromipiraw_E2EHDR_Preview.so
 vendor/lib/libCamera_gc02m1macromipiraw_E2EHDR_Video.so
 vendor/lib/libCamera_gc02m1macromipiraw_Face_Capture.so
@@ -337,10 +333,10 @@ vendor/lib/libCamera_ov50a40mipiraw_Zoom_Preview01.so
 vendor/lib/libCamera_ov50a40mipiraw_Zoom_Preview02.so
 vendor/lib/libCamera_ov50a40mipiraw_Zoom_Preview03.so
 vendor/lib/libJpgEncPipe.so
-vendor/lib/libaiselector.so
+vendor/lib/libaiselector.so;SYMLINK=vendor/lib/mt6877/libaiselector.so
 vendor/lib/libapusys.so
 vendor/lib/libcam.halsensor.hwintegration.so
-vendor/lib/libdpframework.so
+vendor/lib/libdpframework.so;SYMLINK=vendor/lib/mt6877/libdpframework.so
 vendor/lib/libged.so
 vendor/lib/libgralloc_extra.so
 vendor/lib/libgz_uree.so
@@ -348,12 +344,12 @@ vendor/lib/libion_mtk.so
 vendor/lib/libion_ulit.so
 vendor/lib/libjpeg-alpha-oal_vendor.so
 vendor/lib/libjpeg-alpha_vendor.so
-vendor/lib/libmtk_drvb.so
+vendor/lib/libmtk_drvb.so;SYMLINK=vendor/lib/mt6877/libmtk_drvb.so
 vendor/lib/libmtkcam.atmseventmgr.so
 vendor/lib/libmtkcam_debugutils.so
 vendor/lib/libmtkcam_stdutils.so
 vendor/lib/libmtkcam_ulog.so
-vendor/lib/libpq_prot.so
+vendor/lib/libpq_prot.so;SYMLINK=vendor/lib/mt6877/libpq_prot.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib/libvpu.so
 vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so
@@ -362,11 +358,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
-vendor/lib64/mt6877/libaiselector.so
-vendor/lib64/mt6877/libdpframework.so
-vendor/lib64/mt6877/libmtk_drvb.so
-vendor/lib64/mt6877/libneuron_runtime.so
-vendor/lib64/mt6877/libpq_prot.so
 vendor/lib64/gc02m1macro_mipi_raw_IdxMgr.so
 vendor/lib64/gc08a3wide_mipi_raw_IdxMgr.so
 vendor/lib64/lib3a.ae.core.so
@@ -523,7 +514,7 @@ vendor/lib64/libaiawb_moon.so
 vendor/lib64/libaiawb_p1ggm.so
 vendor/lib64/libaiawb_sun.so
 vendor/lib64/libainrcore.so
-vendor/lib64/libaiselector.so
+vendor/lib64/libaiselector.so;SYMLINK=vendor/lib64/mt6877/libaiselector.so
 vendor/lib64/libapusys.so
 vendor/lib64/libbstFilterCapture.so
 vendor/lib64/libbst_beauty_algoutils.so
@@ -589,7 +580,7 @@ vendor/lib64/libcameracustom.so
 vendor/lib64/libdip_drv.so
 vendor/lib64/libdip_imem.so
 vendor/lib64/libdip_postproc.so
-vendor/lib64/libdpframework.so
+vendor/lib64/libdpframework.so;SYMLINK=vendor/lib64/mt6877/libdpframework.so
 vendor/lib64/libeffecthal.base.so
 vendor/lib64/libfeature.face.so
 vendor/lib64/libfeature.stereo.provider.so
@@ -620,7 +611,7 @@ vendor/lib64/libmorpho_Superlowlight.so
 vendor/lib64/libmorpho_superlowlight_algoutils.so
 vendor/lib64/libmorpho_video_stabilizer.so
 vendor/lib64/libmsnr.so
-vendor/lib64/libmtk_drvb.so
+vendor/lib64/libmtk_drvb.so;SYMLINK=vendor/lib64/mt6877/libmtk_drvb.so
 vendor/lib64/libmtkcam.atmseventmgr.so
 vendor/lib64/libmtkcam.eventcallback.so
 vendor/lib64/libmtkcam.featurepipe.capture.so
@@ -674,9 +665,9 @@ vendor/lib64/libmtkcam_tuning_utils.so
 vendor/lib64/libmtkcam_ulog.so
 vendor/lib64/libmtkisp_metadata.so
 vendor/lib64/libneuron_platform.so
-vendor/lib64/libneuron_runtime.so
+vendor/lib64/libneuron_runtime.so;SYMLINK=vendor/lib64/mt6877/libneuron_runtime.so
 vendor/lib64/libneuron_wrapper.so
-vendor/lib64/libpq_prot.so
+vendor/lib64/libpq_prot.so;SYMLINK=vendor/lib64/mt6877/libpq_prot.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libtensorflowlite.so
@@ -1822,8 +1813,6 @@ vendor/lib/hw/awinic.audio.effect.so
 vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib/hw/thermal_hal.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
-vendor/lib/mt6877/libneuron_platform.vpu.so
-vendor/lib/mt6877/libnir_neon_driver.so
 vendor/lib/gc02m1macro_mipi_raw_tuning.so
 vendor/lib/gc08a3wide_mipi_raw_tuning.so
 vendor/lib/lib3a.af.assist.models.so
@@ -1919,8 +1908,8 @@ vendor/lib/libmtkspparser.so
 vendor/lib/libmtksysutils.so
 vendor/lib/libneuroeara.so
 vendor/lib/libneuron_graph_delegate.mtk.so
-vendor/lib/libneuron_platform.vpu.so
-vendor/lib/libnir_neon_driver.so
+vendor/lib/libneuron_platform.vpu.so;SYMLINK=vendor/lib/mt6877/libneuron_platform.vpu.so
+vendor/lib/libnir_neon_driver.so;SYMLINK=vendor/lib/mt6877/libnir_neon_driver.so
 vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib/libnwk_opt_halwrap_vendor.so
 vendor/lib/libnxp_extamp_intf.so
@@ -1983,11 +1972,6 @@ vendor/lib64/hw/libSoftGatekeeper.so
 vendor/lib64/hw/thermal_hal.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
-vendor/lib64/mt6877/libmcv_runtime.mtk.so
-vendor/lib64/mt6877/libmdla_ut.so
-vendor/lib64/mt6877/libneuron_platform.vpu.so
-vendor/lib64/mt6877/libneuron_runtime.5.so
-vendor/lib64/mt6877/libnir_neon_driver.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/APUWareApusysServer.so
 vendor/lib64/APUWareUtilsServer.so
@@ -2094,8 +2078,8 @@ vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libispcameraca.so
 vendor/lib64/libkeymint.so
 vendor/lib64/libkmsetkey.so
-vendor/lib64/libmcv_runtime.mtk.so
-vendor/lib64/libmdla_ut.so
+vendor/lib64/libmcv_runtime.mtk.so;SYMLINK=vendor/lib64/mt6877/libmcv_runtime.mtk.so
+vendor/lib64/libmdla_ut.so;SYMLINK=vendor/lib64/mt6877/libmdla_ut.so
 vendor/lib64/libminiui.so
 vendor/lib64/libmipc.so
 vendor/lib64/libmmagent.so
@@ -2144,9 +2128,9 @@ vendor/lib64/libmtktinyxml.so
 vendor/lib64/libneuroeara.so
 vendor/lib64/libneuron_adapter.so
 vendor/lib64/libneuron_graph_delegate.mtk.so
-vendor/lib64/libneuron_platform.vpu.so
-vendor/lib64/libneuron_runtime.5.so
-vendor/lib64/libnir_neon_driver.so
+vendor/lib64/libneuron_platform.vpu.so;SYMLINK=vendor/lib64/mt6877/libneuron_platform.vpu.so
+vendor/lib64/libneuron_runtime.5.so;SYMLINK=vendor/lib64/mt6877/libneuron_runtime.5.so
+vendor/lib64/libnir_neon_driver.so;SYMLINK=vendor/lib64/mt6877/libnir_neon_driver.so
 vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib64/libnwk_opt_halwrap_vendor.so
 vendor/lib64/libnxp_extamp_intf.so
