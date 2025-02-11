@@ -720,6 +720,7 @@ vendor/lib/libgpud.so
 vendor/lib/libgralloc_metadata.so
 vendor/lib/libgralloctypes_mtk.so
 vendor/lib/libmml.so
+vendor/lib/libpixelflinger.so
 vendor/lib/libpqframework.so
 vendor/lib/libpqparamparser.so
 vendor/lib/vendor.mediatek.hardware.mmagent@1.1.so
@@ -768,6 +769,7 @@ vendor/lib64/libgralloc_metadata.so
 vendor/lib64/libgralloctypes_mtk.so
 vendor/lib64/libhwc2onfbadapter.so
 vendor/lib64/libmml.so
+vendor/lib64/libpixelflinger.so
 vendor/lib64/libpqframework.so
 vendor/lib64/libpqparamparser.so
 vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
