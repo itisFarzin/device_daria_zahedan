@@ -884,22 +884,19 @@ vendor/etc/vintf/manifest/android.hardware.health@2.1.xml
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service.beanpod
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
+vendor/bin/bp_kmsetkey_ca
 vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc
+vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
-vendor/lib/hw/kmsetkey.beanpod.so
-vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
-vendor/lib/libkeymaster4.so
-vendor/lib/libkeymaster41.so
-vendor/lib/libkeymaster4_1support.so
-vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
-vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib64/hw/kmsetkey.beanpod.so
 vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
-vendor/lib64/libkeymaster4.so
-vendor/lib64/libkeymaster41.so
-vendor/lib64/libkeymaster4_1support.so
+vendor/lib64/libkmsetkey.so
+vendor/lib/hw/kmsetkey.beanpod.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
+vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
+vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
+vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 
 # Light
 vendor/bin/hw/android.hardware.lights-service.zahedan
@@ -1115,7 +1112,6 @@ vendor/bin/autobt
 vendor/bin/bip_ap
 vendor/bin/boringssl_self_test32
 vendor/bin/boringssl_self_test64
-vendor/bin/bp_kmsetkey_ca
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/checkpoint_gc
@@ -1202,7 +1198,6 @@ vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/md_monitor.rc
-vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/etc/init/microtrust.rc
 vendor/etc/init/mtk_pkm_service.rc
 vendor/etc/init/muxreport.rc
@@ -1807,7 +1802,6 @@ vendor/lib/gc08a3wide_mipi_raw_tuning.so
 vendor/lib/lib3a.af.assist.models.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
 vendor/lib/libOpenCL.so
-vendor/lib/lib_android_keymaster_keymint_utils.so
 vendor/lib/libaal_key.so
 vendor/lib/libaal_mtk.so
 vendor/lib/libapmonitor_vendor.so
@@ -1857,7 +1851,6 @@ vendor/lib/libicd_decoder.so
 vendor/lib/libimgsensorca.so
 vendor/lib/libipsec_ims_shr.so
 vendor/lib/libispcameraca.so
-vendor/lib/libkeymint.so
 vendor/lib/libminiui.so
 vendor/lib/libmmprofile.so
 vendor/lib/libmnetlink_v104.so
@@ -1943,7 +1936,6 @@ vendor/lib64/lib3a.af.assist.models.so
 vendor/lib64/libBstFaceUlkImpl.so
 vendor/lib64/libDR.so
 vendor/lib64/libOpenCL.so
-vendor/lib64/lib_android_keymaster_keymint_utils.so
 vendor/lib64/lib_eara_io_scndet.so
 vendor/lib64/lib_eara_io_service.so
 vendor/lib64/lib_eara_io_systracer.so
@@ -2019,8 +2011,6 @@ vendor/lib64/libifcutils_mtk.so
 vendor/lib64/libimgsensorca.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libispcameraca.so
-vendor/lib64/libkeymint.so
-vendor/lib64/libkmsetkey.so
 vendor/lib64/libmcv_runtime.mtk.so;SYMLINK=vendor/lib64/mt6877/libmcv_runtime.mtk.so
 vendor/lib64/libmdla_ut.so;SYMLINK=vendor/lib64/mt6877/libmdla_ut.so
 vendor/lib64/libminiui.so

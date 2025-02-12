@@ -84,6 +84,18 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    libkeymaster4_1support.vendor \
+    libkeymaster4.vendor \
+    libkeymaster41.vendor \
+    libkeymint.vendor \
+    libpuresoftkeymasterdevice.vendor \
+    libsoft_attestation_cert.vendor \
+    lib_android_keymaster_keymint_utils.vendor \
+    android.hardware.keymaster@4.1.vendor \
+    android.hardware.hardware_keystore.km41.xml
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
