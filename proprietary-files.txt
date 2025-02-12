@@ -839,12 +839,10 @@ vendor/bin/hw/android.hardware.gatekeeper@1.0-service
 vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.beanpod.so
-vendor/lib/hw/gatekeeper.default.so
 vendor/lib/libTEECommon.so
 vendor/lib/libimsg_log.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.beanpod.so
-vendor/lib64/hw/gatekeeper.default.so
 vendor/lib64/libTEECommon.so
 vendor/lib64/libimsg_log.so
 
@@ -1778,7 +1776,7 @@ vendor/firmware/soc5_0_ram_wmmcu_1_1_hdr.bin
 vendor/firmware/st21nfc_fw7.bin
 vendor/firmware/wifi.cfg
 vendor/lib/hw/awinic.audio.effect.so
-vendor/lib/hw/libSoftGatekeeper.so
+vendor/lib/hw/libSoftGatekeeper.so;SYMLINK=vendor/lib/hw/gatekeeper.default.so
 vendor/lib/hw/thermal_hal.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib/gc02m1macro_mipi_raw_tuning.so
@@ -1905,7 +1903,7 @@ vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
 vendor/lib/vendor.mediatek.hardware.nwk_opt@1.0.so
-vendor/lib64/hw/libSoftGatekeeper.so
+vendor/lib64/hw/libSoftGatekeeper.so;SYMLINK=vendor/lib64/hw/gatekeeper.default.so
 vendor/lib64/hw/thermal_hal.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
