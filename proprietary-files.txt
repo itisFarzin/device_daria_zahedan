@@ -848,6 +848,27 @@ vendor/lib64/hw/gps.default.so
 vendor/lib64/libDR.so
 vendor/lib64/libmnl.so
 
+# Kernel Modules
+vendor_dlkm/lib/modules/bt_drv_6877.ko:system/lib/modules/bt_drv_6877.ko
+vendor_dlkm/lib/modules/connfem.ko:system/lib/modules/connfem.ko
+vendor_dlkm/lib/modules/conninfra.ko:system/lib/modules/conninfra.ko
+vendor_dlkm/lib/modules/fmradio_drv_connac2x.ko:system/lib/modules/fmradio_drv_connac2x.ko
+vendor_dlkm/lib/modules/fpsgo.ko:system/lib/modules/fpsgo.ko
+vendor_dlkm/lib/modules/gps_drv.ko:system/lib/modules/gps_drv.ko
+vendor_dlkm/lib/modules/kheaders.ko:system/lib/modules/kheaders.ko
+vendor_dlkm/lib/modules/lcd.ko:system/lib/modules/lcd.ko
+vendor_dlkm/lib/modules/met.ko:system/lib/modules/met.ko
+vendor_dlkm/lib/modules/modules.alias:system/lib/modules/modules.alias
+vendor_dlkm/lib/modules/modules.dep:system/lib/modules/modules.dep
+vendor_dlkm/lib/modules/modules.softdep:system/lib/modules/modules.softdep
+vendor_dlkm/lib/modules/mt6357-accdet.ko:system/lib/modules/mt6357-accdet.ko
+vendor_dlkm/lib/modules/mt6359-accdet.ko:system/lib/modules/mt6359-accdet.ko
+vendor_dlkm/lib/modules/tcp_htcp.ko:system/lib/modules/tcp_htcp.ko
+vendor_dlkm/lib/modules/tcp_westwood.ko:system/lib/modules/tcp_westwood.ko
+vendor_dlkm/lib/modules/trace_mmstat.ko:system/lib/modules/trace_mmstat.ko
+vendor_dlkm/lib/modules/wlan_drv_gen4m.ko:system/lib/modules/wlan_drv_gen4m.ko
+vendor_dlkm/lib/modules/wmt_chrdev_wifi.ko:system/lib/modules/wmt_chrdev_wifi.ko
+
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service.beanpod
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
